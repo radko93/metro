@@ -186,6 +186,7 @@ const getPreset = (src, options) => {
             {
               isTSX: false,
               allowNamespaces: true,
+              allowDeclareFields: true,
             },
           ],
         ],
@@ -198,6 +199,7 @@ const getPreset = (src, options) => {
             {
               isTSX: true,
               allowNamespaces: true,
+              allowDeclareFields: true,
             },
           ],
         ],
